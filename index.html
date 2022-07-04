@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FCC:Survey Form</title>
+</head>
+<body>
+   
+    <div class="container">
+        <header class="header">
+            <h1>freeCodeCamp Survey Form </h1>
+            <p>Thank you for taking the time to help us improve the platform</p>
+        </header>
+    </div>
+    <main>
+        <div class="principal">
+
+            <div class="name"></div>
+                <label for="username">Name</label><br>
+                <input type="text" name="nome" placeholder="Enter your name">
+                <label for="username"></label>
+            </div>
+
+            <div class="email">
+                <label for="username">Email</label><br>
+                <input type="text" name="email" placeholder="Enter your Email">
+                <label for="useremail"></label>
+            </div>
+
+            <div class="age">
+                <label for="username">Age(optional)</label><br>
+                <input type="number" name="quantidade" placeholder="Age"  min="10" max="99">    
+            </div>
+            <form>
+                <label>Which option best describes your current role?</label><br>
+                <select type="text" placeholder="Enter your Email" min="0" max="5">
+                    <option value="0">Select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full time Job</option>
+                    <option value="3">Full time Learner</option>
+                    <option value="4">Prefer not to say </option>
+                    <option value="5">Other</option>
+                </select>  
+            </form>
+            <form>
+                <label for="">Would you recommend freeCodeCamp to a friend?</label><br>
+                <input type="radio" name="idade" value="definitely">Definitely <br>
+                <input type="radio" name="idade" value="maybe">Maybe<br>
+                <input type="radio" name="idade" value="not">Not sure<br>
+            </form>
+            <form>
+                <label>What is your favorite feature of freeCodeCamp?</label><br>
+                <select type="text" placeholder="Enter your Email">
+                    <option value="0">Select and option </option>
+                    <option value="1">Challenges</option>
+                    <option value="2">Projects</option>
+                    <option value="3">Community</option>
+                    <option value="4">Open Source </option>
+                    
+                </select>  
+            </form>
+
+            <form>
+                <label>What would you like to see improved? (Check all that apply)</label><br>
+                <input type="checkbox" name="">Front-end Projects<br>
+                <input type="checkbox" name="">Back-end Projects<br>
+                <input type="checkbox" name="">Data Visualization<br>
+                <input type="checkbox" name="">Challenges<br>
+                <input type="checkbox" name="">Open Source Community<br>
+                <input type="checkbox" name="">Gitter help rooms<br>
+                <input type="checkbox" name="">Videos<br>
+                <input type="checkbox" name="">City Meetups<br>
+                <input type="checkbox" name="">Wiki<br>
+                <input type="checkbox" name="">Forum<br>
+                <input type="checkbox" name="">Additional Courses<br>
+
+            </form>
+            <form>
+                <p>Any comments or suggestions?</p>
+                <textarea name="text" id="" cols="80" rows="10"></textarea>
+            </form>
+
+            <input type="submit" name="acao" value="Submit">
+
+        </div>
+
+    </main>
+</body>
+</html>
