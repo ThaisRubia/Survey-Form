@@ -113,15 +113,19 @@ label {
 }
 .userradio {
     margin: 0px 0px 8px;
+    
+    
 }
 #userradio {
     display: flex;
+    flex-direction: column row-reverse;
     align-items: center;
     font-size: 1.125rem;
     margin-bottom: 0.5rem;
    
 }
 .useroption {
+    padding-top: 15px;
     margin: 0px 0px 8px;
 }
 #useroption {
@@ -149,12 +153,19 @@ label {
     padding: 4px;
 }
 .textarea {
+    padding-top: 15px;
     margin: 0px 0px 8px; 
     
 }
 #textarea {
     margin: 0px 0px 20px;
     padding: 4px;
+    
+}
+#submit{
+    padding: 12px;
+    background-color: #37af65;
+    border-radius: 5px;
 }
 
 
