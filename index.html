@@ -9,89 +9,63 @@
 </head>
 <body>
     
-        <h1>freeCodeCamp Survey Form </h1>
-        <p>Thank you for taking the time to help us improve the platform</p>
+    <h1>freeCodeCamp Survey Form </h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
         
-        <form action="">
-            <label class="name" for="name">Name</label>
-            <input class="aumentar" id="name" type="text" name="name" placeholder="Enter your name">
+    <form action="">
+        <label class="name" for="name">Name</label>
+        <input class="increase" id="name" type="text" name="name" placeholder="Enter your name">
 
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter your Email">
+        <label class="email" for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email">
+
+        <label class="usernumber" for="usernumber">Age(optional)</label>
+        <input type="number" name="usernumber" id="usernumber" placeholder="Age"  min="10" max="99">    
             
-        </form>
-         <!--
-        <form action="">
-            <label for="username">Email</label><br>
-            <input type="text" name="email" placeholder="Enter your Email">
-        </form> -->
+        <label class="usertext" for="usertext">Which option best describes your current role?</label>
+        <select type="text" name="usertext"placeholder="Enter your Email" id="usertext" min="0" max="5">
+            <option class="usertext" value="0">Select current role</option>
+            <option class="usertext" value="1">Student</option>
+            <option class="usertext" value="2">Full time Job</option>
+            <option class="usertext" value="3">Full time Learner</option>
+            <option class="usertext" value="4">Prefer not to say </option>
+            <option class="usertext" value="5">Other</option>
+        </select>  
+
+        <label class="userradio" for="userradio">Would you recommend freeCodeCamp to a friend?</label>
+        <input type="radio" name="idade" id="userradio" value="definitely">Definitely
+        <input type="radio" name="idade" id="userradio" value="maybe">Maybe
+        <input type="radio" name="idade" id="userradio" value="not">Not sure
             
-        <!-- <div class="principal">
+        <label class="useroption" for="useroption">What is your favorite feature of freeCodeCamp?</label>
+        <select type="text" name="useroption" id="useroption" placeholder="Enter your Email">
+            <option value="0">Select and option </option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source </option>  
+        </select>  
 
+        <label class="usercheckbox" for="usercheckbox">What would you like to see improved? (Check all that apply)</label>
+        <input type="checkbox" id="usercheckbox" name="usercheckbox">Front-end Projects
+        <input type="checkbox" id="usercheckbox" name="usercheckbox">Back-end Projects
+        <input type="checkbox" id="usercheckbox" name="usercheckbox">Data Visualization
+        <input type="checkbox" id="usercheckbox" name="usercheckbox">Challenges
+        <input type="checkbox" id="usercheckbox" name="usercheckbox">Open Source Community
+        <input type="checkbox" id="usercheckbox" name="usercheckbox">Gitter help rooms
+        <input type="checkbox" id="usercheckbox" name="usercheckbox">Videos
+        <input type="checkbox" id="usercheckbox" name="usercheckbox">City Meetups
+        <input type="checkbox" id="usercheckbox" name="usercheckbox">Wiki
+        <input type="checkbox" id="usercheckbox" name="usercheckbox">Forum
+        <input type="checkbox" id="usercheckbox" name="usercheckbox">Additional Courses
 
-            <div class="cent">
-                <label for="username">Email</label><br>
-                <input type="text" name="email" placeholder="Enter your Email">
-                <label for="useremail"></label>
-            </div>
+        <p class="textarea">Any comments or suggestions?</p>
+        <textarea name="text" id="textarea" cols="80" rows="10"></textarea>
 
-            <div class="cent">
-                <label for="username">Age(optional)</label><br>
-                <input type="number" name="quantidade" placeholder="Age"  min="10" max="99">    
-            </div>
-            <form class="cent">
-                <label>Which option best describes your current role?</label><br>
-                <select type="text" placeholder="Enter your Email" min="0" max="5">
-                    <option class="linha" value="0">Select current role</option>
-                    <option class="linha" value="1">Student</option>
-                    <option class="linha" value="2">Full time Job</option>
-                    <option class="linha" value="3">Full time Learner</option>
-                    <option class="linha" value="4">Prefer not to say </option>
-                    <option class="linha" value="5">Other</option>
-                </select>  
-            </form>
-            <form class="cent">
-                <label for="">Would you recommend freeCodeCamp to a friend?</label><br>
-                <input type="radio" name="idade" value="definitely">Definitely <br>
-                <input type="radio" name="idade" value="maybe">Maybe<br>
-                <input type="radio" name="idade" value="not">Not sure<br>
-            </form>
-            <form class="cent">
-                <label>What is your favorite feature of freeCodeCamp?</label><br>
-                <select type="text" placeholder="Enter your Email">
-                    <option value="0">Select and option </option>
-                    <option value="1">Challenges</option>
-                    <option value="2">Projects</option>
-                    <option value="3">Community</option>
-                    <option value="4">Open Source </option>
-                        
-                </select>  
-            </form>
+        <input type="submit" name="submit" id="submit" value="Submit">
 
-            <form class="cent">
-               <label>What would you like to see improved? (Check all that apply)</label><br>
-               <input type="checkbox" name="">Front-end Projects<br>
-                <input type="checkbox" name="">Back-end Projects<br>
-                <input type="checkbox" name="">Data Visualization<br>
-                <input type="checkbox" name="">Challenges<br>
-                <input type="checkbox" name="">Open Source Community<br>
-                <input type="checkbox" name="">Gitter help rooms<br>
-                <input type="checkbox" name="">Videos<br>
-                <input type="checkbox" name="">City Meetups<br>
-                <input type="checkbox" name="">Wiki<br>
-                <input type="checkbox" name="">Forum<br>
-                <input type="checkbox" name="">Additional Courses<br>
-
-            </form>
-            <form>
-                <p>Any comments or suggestions?</p>
-                <textarea name="text" id="" cols="80" rows="10"></textarea>
-            </form>
-
-            <input type="submit" name="acao" value="Submit">
-
-        </div>
-    --> 
+    </form>
+         
     
     
 </body>
