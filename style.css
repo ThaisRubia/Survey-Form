@@ -31,6 +31,7 @@ form {
     background-color: #1B1B32CC;
     display: flex;
     flex-direction: column;
+    font: 18px Poppins, sans-serif;
 
     width: 720px;
     padding: 40px;
@@ -46,6 +47,7 @@ label {
     margin-top: 15px;
 }
 .name{
+    
     margin: 0px 0px 08px;
     
     
@@ -81,6 +83,7 @@ label {
 }
 .usernumber{
     margin: 0px 0px 8px;
+
 }
 #usernumber {
     margin: 0px 0px 20px;
@@ -111,18 +114,22 @@ label {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     
 }
-.userradio {
+p {
     margin: 0px 0px 8px;
-    
-    
+}
+#definitely {
+    margin: 0px 0px 8px;
+
+}
+#maybe {
+    margin: 0px 0px 8px;
+}
+#notsure{
+    margin: 0px 0px 8px;
 }
 #userradio {
-    display: flex;
-    flex-direction: column row-reverse;
-    align-items: center;
-    font-size: 1.125rem;
-    margin-bottom: 0.5rem;
-   
+    padding-top: 15px;
+    margin: 0px 10px 0px 0px;
 }
 .useroption {
     padding-top: 15px;
@@ -141,6 +148,40 @@ label {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     
 }
+#front-endprojects {
+    margin: 0px 0px 8px;
+}
+#back-endprojects {
+    margin: 0px 0px 8px;
+}
+#datavisualization {
+    margin: 0px 0px 8px;
+}
+#challenges {
+    margin: 0px 0px 8px;
+}
+#opensourcecommunity {
+    margin: 0px 0px 8px;
+}
+#gitterhelprooms {
+    margin: 0px 0px 8px;
+}
+#videos {
+    margin: 0px 0px 8px;
+}
+#citymeetups {
+    margin: 0px 0px 8px;
+}
+#wiki {
+    margin: 0px 0px 8px;
+}
+#forum {
+    margin: 0px 0px 8px;
+}
+#Additionalcourses {
+    margin: 0px 0px 8px;
+}
+
 .usercheckbox {
     margin: 0px 0px 8px;
 }

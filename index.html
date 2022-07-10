@@ -24,42 +24,50 @@
             
         <label class="usertext" for="usertext">Which option best describes your current role?</label>
         <select type="text" name="usertext"placeholder="Enter your Email" id="usertext" min="0" max="5">
-            <option class="usertext" value="0">Select current role</option>
-            <option class="usertext" value="1">Student</option>
-            <option class="usertext" value="2">Full time Job</option>
-            <option class="usertext" value="3">Full time Learner</option>
-            <option class="usertext" value="4">Prefer not to say </option>
-            <option class="usertext" value="5">Other</option>
+            <option value="select current role">Select current role</option>
+            <option value="student">Student</option>
+            <option value="full time Job">Full time Job</option>
+            <option value="full time Learner">Full time Learner</option>
+            <option value="prefer not to say ">Prefer not to say </option>
+            <option value="Other">Other</option>
         </select>  
 
-        <label class="userradio" for="userradio">Would you recommend freeCodeCamp to a friend?</label>
-        <input type="radio" name="idade" id="userradio" value="definitely">Definitely
-        <input type="radio" name="idade" id="userradio" value="maybe">Maybe
-        <input type="radio" name="idade" id="userradio" value="not">Not sure
+        <div id="userradio">
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <input type="radio" name="fav_language" id="definitely" value="definitely">
+            <label for="definitely">Definitely</label><br>
+            <input type="radio" name="fav_language" id="maybe" value="maybe">
+            <label for="maybe">Maybe</label><br>
+            <input type="radio" name="fav_language" id="not sure" value="not sure">
+            <label for="notsure">Not sure</label>
+        </div>
+
             
         <label class="useroption" for="useroption">What is your favorite feature of freeCodeCamp?</label>
         <select type="text" name="useroption" id="useroption" placeholder="Enter your Email">
-            <option value="0">Select and option </option>
-            <option value="1">Challenges</option>
-            <option value="2">Projects</option>
-            <option value="3">Community</option>
-            <option value="4">Open Source </option>  
+            <option value="select and option">Select and option </option>
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="open Source">Open Source </option>  
         </select>  
 
-        <label class="usercheckbox" for="usercheckbox">What would you like to see improved? (Check all that apply)</label>
-        <input type="checkbox" id="usercheckbox" name="usercheckbox">Front-end Projects
-        <input type="checkbox" id="usercheckbox" name="usercheckbox">Back-end Projects
-        <input type="checkbox" id="usercheckbox" name="usercheckbox">Data Visualization
-        <input type="checkbox" id="usercheckbox" name="usercheckbox">Challenges
-        <input type="checkbox" id="usercheckbox" name="usercheckbox">Open Source Community
-        <input type="checkbox" id="usercheckbox" name="usercheckbox">Gitter help rooms
-        <input type="checkbox" id="usercheckbox" name="usercheckbox">Videos
-        <input type="checkbox" id="usercheckbox" name="usercheckbox">City Meetups
-        <input type="checkbox" id="usercheckbox" name="usercheckbox">Wiki
-        <input type="checkbox" id="usercheckbox" name="usercheckbox">Forum
-        <input type="checkbox" id="usercheckbox" name="usercheckbox">Additional Courses
+        <div id="usercheckbox">
+            <p>What would you like to see improved? (Check all that apply)<br></p>
+            <input type="checkbox" id="front-endprojects" name="usercheckbox">Front-end Projects<br>
+            <input type="checkbox" id="back-endprojects" name="usercheckbox">Back-end Projects<br>
+            <input type="checkbox" id="datavisualization" name="usercheckbox">Data Visualization<br>
+            <input type="checkbox" id="challenges" name="usercheckbox">Challenges<br>
+            <input type="checkbox" id="opensourcecommunity" name="usercheckbox">Open Source Community<br>
+            <input type="checkbox" id="gitterhelprooms" name="usercheckbox">Gitter help rooms<br>
+            <input type="checkbox" id="videos" name="usercheckbox">Videos<br>
+            <input type="checkbox" id="citymeetups" name="usercheckbox">City Meetups<br>
+            <input type="checkbox" id="wiki" name="usercheckbox">Wiki<br>
+            <input type="checkbox" id="forum" name="usercheckbox">Forum<br>
+            <input type="checkbox" id="Additionalcourses" name="usercheckbox">Additional Courses
+        </div>
 
-        <p class="textarea">Any comments or suggestions?</p>
+        <p>Any comments or suggestions?</p>
         <textarea name="text" id="textarea" cols="80" rows="10"></textarea>
 
         <input type="submit" name="submit" id="submit" value="Submit">
