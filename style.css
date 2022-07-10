@@ -167,7 +167,6 @@ p {
 #front-endprojects {
     
     margin: 0px 10px 8px 0px;
-    
 
 }
 #back-endprojects {
@@ -236,7 +235,9 @@ input.input-checkbox {
 #submit{
     padding: 12px;
     background-color: #37af65;
-    border-radius: 5px;
+    border: 0px;
+    border-radius: 3px;
+    
 }
 
 
